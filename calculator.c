@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int diffNum(int , int);
 int  main(){
     int a;
@@ -17,4 +18,5 @@ int diffNum(int a, int b)
 {
 int difference=a-b;
 return difference;
+
 }
