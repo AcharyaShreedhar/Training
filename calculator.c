@@ -1,40 +1,40 @@
 #include<stdio.h>
-int division(int a,int b);
-int diffNum(int , int);
+#include<conio.h>
+float division(float a,float b);
+float diffNum(float , float);
 int  main(){
-    int a;
-    int b;
-int subtract;
+    float a;
+    float b;
+float subtract;
     printf("\nEnter any number :");
 
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("\nEnter another number :");
-    scanf("%d",&b);
+    scanf("%f",&b);
 
     division(a,b);
        subtract=diffNum(a,b);
-printf("The subtraction of these two number is :%d",subtract);
+printf("The subtraction of these two number is :%f",subtract);
     return 0;
     
 
 
 }
 
-int div(int a , int b)
+float div(float a , float b)
 {
-int div;
+float div;
 div=a/b;
-printf("\n The result is: %d",div);
+printf("\n The result is: %f",div);
 getch();
 }
 
  
 
-int diffNum(int a, int b)
+float diffNum(float a, float b)
 
 {
-int difference=a-b;
-return difference;
+float difference=a-b;
+return 0;
 getch ();
 }
-
